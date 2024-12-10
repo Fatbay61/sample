@@ -63,7 +63,7 @@ textures = ['Grass2', 'Grass1', 'Path1', 'Stone1', 'Wood2', 'Stone','Wood1', 'So
 current_texture_index = 0  
 
 def input(key):
-    global current_texture_index
+    global current_texture_index 
     for box in boxes:
         if box.hovered:
             if key == "left mouse down":
